@@ -1,0 +1,53 @@
+.create-allowance-container {
+    padding: 30px;
+    max-width: 700px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .create-allowance-container h2 {
+    text-align: center;
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .form-row label {
+    font-weight: bold;
+  }
+  
+  .info-icon {
+    margin-left: 5px;
+    cursor: help;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="number"],
+  select {
+    width: 60%;
+    padding: 5px;
+  }
+  
+  .save-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .save-btn:hover {
+    background-color: #0056b3;
+  }
+  

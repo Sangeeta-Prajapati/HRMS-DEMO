@@ -1,0 +1,66 @@
+/* EmployeeDashboard.css */
+.employee-dashboard {
+    padding: 20px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .month-year-selector {
+    width: 40%;
+  }
+  
+  .employee-details {
+    width: 55%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .calendar {
+    margin-top: 10px;
+    border: 1px solid #007bff;
+    padding: 10px;
+  }
+  
+  .calendar-month {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* 7 columns for the days */
+    gap: 5px;
+  }
+  
+  .calendar-day {
+    padding: 10px;
+    background-color: #f0f0f0;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+  }
+  
+  .calendar-day:hover {
+    background-color: #d0e8ff;
+  }
+  
+  .employee-chart {
+    margin-top: 10px;
+  }
+  
+  .employee-status {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .draft { background-color: #fff3cd; }
+  .reviewed { background-color: #cce5ff; }
+  .confirmed { background-color: #d4edda; }
+  .paid { background-color: #d1ecf1; }
+  

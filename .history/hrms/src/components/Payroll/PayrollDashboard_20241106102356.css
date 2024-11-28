@@ -1,0 +1,86 @@
+/* PayrollDashboard.css */
+.payroll-dashboard {
+    padding: 20px;
+  }
+  
+  .status-containers {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .status-container {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    width: 18%;
+  }
+  
+  .paid { background-color: #d4edda; }
+  .confirmed { background-color: #cce5ff; }
+  .review { background-color: #fff3cd; }
+  .draft { background-color: #f8d7da; }
+  
+  .calendar-container {
+    margin-bottom: 20px;
+  }
+  
+  .add-calendar {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    width: 150px;
+  }
+  
+  .export-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .export-form {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .export-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .export-form input,
+  .export-form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+  }
+  
+  .export-form button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .status {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+
+  .status-item {
+    background-color: #f5f5f5;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-top: px solid rgb(117, 199, 117);
+  }

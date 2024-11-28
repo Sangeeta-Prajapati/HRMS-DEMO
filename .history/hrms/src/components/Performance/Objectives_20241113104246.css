@@ -1,0 +1,90 @@
+.objectives {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .header-row h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .toolbar {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .toolbar input[type="text"] {
+    padding: 8px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .toolbar button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .tabs {
+    display: flex;
+    border: 2px solid #ccc;
+    margin-right: 30px;
+    text-align: left;
+  }
+  
+  .tabs button {
+    padding: 10px 20px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .tabs button.active {
+    border-bottom: 2px solid #007bff;
+    font-weight: bold;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+  }
+  
+  td button {
+    margin-right: 5px;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .pagination {
+    text-align: right;
+    font-size: 14px;
+    color: #777;
+  }
+  

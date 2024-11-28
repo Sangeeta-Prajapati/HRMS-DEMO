@@ -1,0 +1,122 @@
+.allowances-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .allowances-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .allowances-header h2 {
+    margin: 0;
+  }
+  
+  .controls {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .view-toggle {
+    background: none;
+    border: none;
+    font-size: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .view-toggle.active {
+    color: #007bff;
+  }
+  
+  .create-btn {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .card-view {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .allowance-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-icon {
+    font-size: 20px;
+    font-weight: bold;
+    background: #e0e0e0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .card-content h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .card-content p {
+    margin: 5px 0;
+  }
+  
+  .list-view {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .edit-btn, .delete-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 8px;
+  }
+  
+  .edit-btn {
+    color: #007bff;
+  }
+  
+  .delete-btn {
+    color: #ff5722;
+  }
+  

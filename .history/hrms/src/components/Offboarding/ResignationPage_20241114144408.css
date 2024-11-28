@@ -1,0 +1,147 @@
+.resignation-page {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-input {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.icon-button {
+  padding: 8px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.create-button {
+  padding: 8px 16px;
+  background-color: #ff5722;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.filter-popup {
+  padding: 20px;
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.resignation-content {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.resignation-content.list {
+  flex-direction: column;
+}
+
+.resignation-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  width: calc(25% - 20px); /* Adjust width for grid view */
+}
+
+.resignation-card .card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.status {
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.approved {
+  background-color: #4caf50;
+}
+
+.card-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.card-body {
+  margin-bottom: 10px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.approve-button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  width: 48%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reject-button {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  width: 48%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header-right {
+    flex-wrap: wrap;
+  }
+
+  .resignation-card {
+    width: calc(50% - 20px); /* Adjust width for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .resignation-card {
+    width: 100%; /* Adjust width for very small screens */
+  }
+}

@@ -1,0 +1,203 @@
+/* PayrollDashboard.css */
+.payroll-dashboard {
+  padding: 20px;
+}
+
+.status-containers {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.status-container {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  width: 18%;
+}
+
+.paid {
+  background-color: #d4edda;
+}
+.confirmed {
+  background-color: #cce5ff;
+}
+.review {
+  background-color: #fff3cd;
+}
+.draft {
+  background-color: #f8d7da;
+}
+
+
+.export-buttons {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  width: 100px;
+  
+  
+}
+
+.export{
+    color: #28a745;
+    font-size: 15px;
+    padding: 15px;
+    font-weight: 400;
+    
+}
+
+.export-form {
+  margin-top: 20px;
+  
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.export-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.export-form input,
+.export-form select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+.export-form button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.status {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.status-item {
+  background-color: #f5f5f5;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-top: 1px solid green;
+}
+
+.row-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space between calendar and export button */
+  margin-bottom: 20px;
+  background-color: #d4edda;
+  text-align: center;
+  
+}
+
+.calendar-container {
+    margin-bottom: 20px;
+  }
+  
+
+.date-selector {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.date-selector label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  color: rgb(121, 5, 5);
+  font-weight: bold;
+  text-align: center;
+}
+
+.date-selector input[type="month"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.employee-payslips,
+.contributions,
+.contracts-ending,
+.department-chart {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.employee-payslips h3,
+.contributions h3,
+.contracts-ending h3,
+.department-chart h3 {
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.payslip-chart,
+.chart-placeholder {
+  height: 200px;
+  background-color: #ffcccc;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.employee-dropdown {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.no-contracts {
+  text-align: center;
+  color: #777;
+  font-style: italic;
+}

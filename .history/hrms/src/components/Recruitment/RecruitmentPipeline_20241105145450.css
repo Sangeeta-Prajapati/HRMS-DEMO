@@ -1,0 +1,44 @@
+.pipeline-container {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+  }
+  
+  .pipeline-section {
+    margin-top: 20px;
+  }
+  
+  .pipeline-section h3 {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-left: 5px solid #ffa500;
+  }
+  
+  .recruitment-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .recruitment-table th,
+  .recruitment-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .recruitment-table th {
+    background-color: #f1f1f1;
+  }
+  
+  button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ddd;
+  }
+  

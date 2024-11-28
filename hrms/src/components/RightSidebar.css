@@ -1,0 +1,19 @@
+.right-sidebar {
+    width: 250px;
+  }
+  
+  .announcements,
+  .on-leave,
+  .employee-info {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  .on-leave ul,
+  .employee-info ul {
+    list-style: none;
+    padding: 0;
+  }
+  
